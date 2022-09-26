@@ -82,4 +82,4 @@ for (let i=1; i<4; i++) {
     notecards[i-1].noteImageURL = 'assets/warhol-' + animal + '.png';
     notecards[i-1].updateElement();
   }
-}
+}a
