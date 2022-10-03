@@ -7,6 +7,7 @@ class Notecard {
     this.noteTitle = title;
     this.noteBody = body;
 		this.noteFooter = footer;
+    this.element = null
 
     this.element = document.querySelector(elementID);
   
@@ -20,6 +21,9 @@ class Notecard {
 
     this.updateElement();
   }
+
+  const notecardOne = new Notecard;
+  console.log(notecardOne);
 
   updateElement() {    
 	  const noteImageElement = this.element.querySelector('.notecard-thumbnail');
